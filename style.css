@@ -1,0 +1,84 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba(39, 39, 39, 0.504);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Logo */
+
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 250px;
+    margin-top: 80px;
+}
+
+.logo-text{
+    color: rgb(42, 203, 42);
+    margin-block: 0px;
+}
+
+
+/* Tasti */
+
+.tasti{
+    background-color: rgb(42, 203, 42);
+    text-align: center;
+    padding: 10px;
+}
+
+.tasti, .monopattino{
+    margin-inline: 90px;
+}
+
+/* User */
+
+.monopattino{
+    margin-top: 20px;
+    color: white;
+    font-size: medium;
+}
+
+.user{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.arrow:after{
+    content: "\21A6";
+}
+
+
+/* Stato carica */ 
+
+.box{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.uno{
+    width: 380px;
+    background-color: rgb(237, 180, 46);
+}
+
+.due{
+    width: 600px;
+    background-color: rgb(20, 196, 20);
+}
+
+.tre{
+    width: 200px;
+    background-color: rgba(220, 20, 60, 0.753);
+}
